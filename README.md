@@ -94,4 +94,5 @@ McNemar's exact test: b=6, c=2, p=0.289. Wilson 95% CI: agent [87.4%, 96.6%], ba
 
 Artifacts currently available:
 - `ground_truth.json` — full benchmark with 120 gold-standard queries
+- evaluation reports
 - Data dictionary and database schema 
