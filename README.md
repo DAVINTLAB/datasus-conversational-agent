@@ -3,7 +3,7 @@
 This repository contains the artifacts of the paper "A Conversational Agent for Natural Language Access to Public Health Data", submitted to CBMS 2026.
 To the best of our knowledge, we present the first Text-to-SQL system for the Hospital Information System in Reduced Data format (SIH-RD) from DATASUS, enabling queries over 18.7 million hospitalization records from the states of Rio Grande do Sul and Maranhão between 2008 and 2023. 
 To address this, we derive fifteen domain-specific SQL generation rules from systematic SIH-RD schema analysis and embed them in a 9-stage LangGraph pipeline with query routing, automatic table selection, chain-of-thought planning, SQL generation, static validation, and bounded self-repair, requiring no model fine-tuning.
-We also construct a benchmark of 120 Portuguese healthcare queries stratified into Easy, Medium, and Hard tiers (40~each) with gold-standard SQL over records from the two Brazilian states (2008--2023), comprising the first formal Text-to-SQL evaluation on SIH-RD.
+We also construct a benchmark of 120 Portuguese healthcare queries stratified into Easy, Medium, and Hard tiers (40 each) with gold-standard SQL over records from the two Brazilian states (2008--2023), comprising the first formal Text-to-SQL evaluation on SIH-RD.
 The agent achieves 93.3% execution accuracy (112/120) with 100% pipeline completion; a controlled single-shot baseline sharing identical model, domain rules, and prompts achieves 90.0% (108/120), with the advantage concentrated in Hard queries (+10.0~pp), isolating the contribution of graph orchestration for complex multi-table reasoning.
 
 ---
