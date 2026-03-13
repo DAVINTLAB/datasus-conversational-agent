@@ -1,4 +1,4 @@
-# datasus-conversational-agent
+# A Conversational Agent for Natural Language Access to Public Health Data
 
 This repository contains the artifacts of the paper "A Conversational Agent for Natural Language Access to Public Health Data", submitted to CBMS 2026.
 To the best of our knowledge, we present the first Text-to-SQL system for the Hospital Information System in Reduced Data format (SIH-RD) from DATASUS, enabling queries over 18.7 million hospitalization records from the states of Rio Grande do Sul and Maranhão between 2008 and 2023. 
