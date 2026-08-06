@@ -83,20 +83,11 @@ The agent is implemented in **LangGraph** across 9 sequential stages:
 McNemar's exact test: b=6, c=2, p=0.289. Wilson 95% CI: agent [87.4%, 96.6%], baseline [83.3%, 94.2%].
 
 
-## Code Availability
-
-> **The agent and data pipeline source code will be made publicly available in this repository upon paper acceptance.**
-
-Artifacts currently available:
-- `ground_truth.json` — full benchmark with 120 gold-standard queries
-- evaluation reports
-- Data dictionary and database schema
-
-
 # About the Authors
 We are members of the Data Visualization and Interaction Lab (DaVInt) at PUCRS:
 
 - Isabel H. Manssour -- Professor Coordinator of DaVInt -- 2017-current.
+- Duncan Dubugras Alcoba Ruiz
 - Isadora Ferraz e Figueiredo -- Undergraduate Research Student -- 2025-current.
 - Maicon Kevyn Moraes da Silva -- Undergraduate Research Student -- 2025
 - Victória Cavalheiro Marques -- Undergraduate Research Student -- 2025-current.
